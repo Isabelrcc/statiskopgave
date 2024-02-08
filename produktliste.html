@@ -14,19 +14,32 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="kategori.html">Seasons</a>
-            <a href="produktliste.html">Products</a>
+
         </nav>
     </header>
-    <h2>Products</h2>
+
+    <h1>Products</h1>
+
     <main>
 
-        <article class="small_product">
-            <img src="img/blue_shirt.webp" alt="Sahara Team India Fanwear Round Neck Jersey">
-            <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-            <p class="subtle">T-shirts - Nike</p>
-            <p class="price">1595,-</p>
-            <a href="produkt.html">Read More</a>
-        </article>
+
+        <template id="small_productTemplate">
+            <article class="small_product">
+                <img src="img/blue_shirt.webp" alt="Sahara Team India Fanwear Round Neck Jersey">
+                <h3></h3>
+                <p class="season"></p>
+                <p class="id"></p>
+                <p class="price"><span></span> kr.</p>
+                <p class="onDiscount"><span></span></p>
+                <a class="read-more" href="produkt.html">Read More</a>
+            </article>
+        </template>
+
+
+
+
+
+        <!-- 
 
         <article class="small_product_onSale">
             <img src="img/blue_shirt.webp" alt="Blue T20">
@@ -80,11 +93,33 @@
             <a href="produkt.html">Read More</a>
         </article>
 
+        <article class="small_product_soldOut">
+            <img src="img/puma_taske2.webp" alt="Big Cat Backpack Black">
+            <h3>Big Cat Backpack Black</h3>
+            <p class="subtle">T-shirts - Nike</p>
+            <p class="price">800,-</p>
+            <a href="produkt.html">Read More</a>
+        </article>
+
+        <article class="small_product_onSale">
+            <img src="img/blue_shirt.webp" alt="Blue T20">
+            <h3>Blue T20 Indian Cricket Jersey</h3>
+            <p class="subtle">T-shirts - Nike</p>
+            <p class="price">Prev. 1595,-</p>
+            <div class="discounted">
+                <p>Now 1560,-</p>
+                <p>-34%</p>
+            </div>
+            <a href="produkt.html">Read More</a>
+        </article> -->
+
+
 
     </main>
 
+    <script src="productlist.js"></script>
 
-    <footer>isabel</footer>
+
 
 </body>
 
